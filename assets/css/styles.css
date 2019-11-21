@@ -79,8 +79,13 @@ label {
 
 
 
-h1 {
+h1, h2 {
 	color: green;
+}
+
+#mission {
+	margin-top: 3vw;
+	max-width: 90vw;
 }
 
 .brand {
@@ -128,7 +133,7 @@ body {
 	color: white;
 }
 
-#About-me {
+#about {
 	width: 60vw;
 	height: 35vh;
 	background-color: #D8D8D8;
@@ -141,7 +146,7 @@ h3 {
 	font-size: 24px;
 	font-family: 'Roboto', sans-serif;
 }
-#About-me p {
+#about p {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.2px;
 }
@@ -174,9 +179,15 @@ input {
 button {
 	background-color: gray;
 	margin: 2vh;
+	cursor: pointer;
 }
 
 @media (max-width: 550px) {
+	#mission {
+		margin-top: 30px;
+		
+	}
+
 	#projects {
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -188,7 +199,7 @@ button {
 		height: 70vh;
 	}
 
-	#About-me {
+	#about {
 	width: 85vw;
 	height: 60vh;
 	background-color: #D8D8D8;
